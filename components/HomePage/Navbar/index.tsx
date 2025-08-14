@@ -29,34 +29,25 @@ export function Navbar() {
     >
       <div className="px-6 sm:px-10 lg:px-16">
         <div className="flex justify-start gap-12  items-center py-4 border-b-2 ">
-          {/* LEFT - Logo + Links + Dropdown */}
           <div className="flex items-center gap-6">
-            {/* Logo */}
         
-
-            {/* Navbar links */}
-          
-
-            {/* Dropdown trigger - Pass hover state */}
             <ShopChristmasDropdown isHovered={navbarHovered} />
             <CoffeeDropdown isHovered={navbarHovered} />
-            <AccessoriesDropdown isHovered={navbarHovered} />
             <SubscriptionsDropdown isHovered={navbarHovered} />
+            <AccessoriesDropdown isHovered={navbarHovered} />
           </div>
 
-          {/* MIDDLE - Logo */}
-          <Link href="/" className="  ">
+          <a href="/" className="  ">
             <img
-              src="/homepage/navbar/logo-navbar.svg"
+              src="/HomePage/Navbar/logo-navbar.svg"
               alt="logo"
               className="transition-all duration-300"
               style={{
                 filter: navbarHovered ? 'invert(1)' : 'invert(0)'
               }}
             />
-          </Link>
+          </a>
 
-          {/* RIGHT - Links + Icons */}
           <div className="flex items-center gap-12">
             <div className="hidden md:flex gap-6">
               <Link
@@ -90,7 +81,6 @@ export function Navbar() {
                 navbarHovered ? 'text-black' : 'text-white'
               }`} />
               <SearchDialog  isHovered={navbarHovered} setNavbarHovered={setNavbarHovered}/>
-              {/* Pass hover state to cart drawer */}
               <CartDrawer isHovered={navbarHovered} setNavbarHovered={setNavbarHovered}/>
             </div>
 
