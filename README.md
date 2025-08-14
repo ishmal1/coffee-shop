@@ -31,24 +31,24 @@ Edit
 npm run dev
 ```
 ## 4. Open the application:
-Visit http://localhost:3000 in your browser to see the application running.
+Visit https://clifton-coffee-five.vercel.app/ in your browser to see the application running.
 
 # Technologies Used
 The main technologies and tools used in this project are:
 
-- Next.js: A React framework for building modern web applications.
+- **Next.js:** A React framework for building modern web applications.
 
-- Tailwind CSS: Utility-first CSS framework for styling and layout.
+- **Tailwind CSS:** Utility-first CSS framework for styling and layout.
 
-- ShadCN UI: A utility-first UI kit for building clean and consistent React components.
+- **ShadCN UI:** A utility-first UI kit for building clean and consistent React components.
 
-- Swiper JS: A carousel/slider library for implementing vertical scrolling carousels.
+- **Swiper JS**: A carousel/slider library for implementing vertical scrolling carousels.
 
-- Lucide React: Modern SVG icon library for React applications.
+- **Lucide React:** Modern SVG icon library for React applications.
 
-- React: For building UI components.
+- **React:** For building UI components.
 
-- JavaScript/TypeScript: Modern ES6+ syntax and type safety for components and logic.
+- **JavaScript/TypeScript:** Modern ES6+ syntax and type safety for components and logic.
 
 # Learn More
 To learn more about the technologies used in this project, check out the following resources:
